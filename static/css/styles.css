@@ -1,0 +1,12 @@
+/* Ajusta a largura da logo no painel admin */
+.dj-admin-logo img {
+    width: 150px; /* Ajuste a largura conforme necessário */
+    height: auto;
+}
+
+/* Ajusta a logo na tela de login */
+.dj-login-logo img {
+    max-width: 200px;  /* Limite o tamanho máximo da logo */
+    width: 100%;
+    height: auto;
+}
