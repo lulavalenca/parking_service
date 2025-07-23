@@ -86,11 +86,11 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': BASE_DIR / 'parking_service',
+        'NAME': 'parking_service',  # Nome do banco de dados como string
         'USER': 'postgres',
         'PASSWORD': 'postgres',
-        'HOST': 'parking_db',
-        'PORT': '5432'
+        'HOST': 'parking_db',  # Nome do serviço/container do banco de dados
+        'PORT': '5432',
     }
 }
 
